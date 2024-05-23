@@ -1,3 +1,4 @@
+
 <script setup>
 import ExampleCard from "../Components/ExampleCard.vue";
 import MaterialBadge from "../../../components/MaterialBadge.vue";

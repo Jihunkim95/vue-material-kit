@@ -1,3 +1,4 @@
+
 <script setup>
 import { RouterLink } from "vue-router";
 import { ref, watch } from "vue";
@@ -120,7 +121,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Kit 2
+       플랫폼로직스
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -175,7 +176,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              페이지
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -285,7 +286,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              Sections
+              섹션
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -768,7 +769,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              Docs
+              문서
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -930,7 +931,7 @@ watch(
             </a>
           </li>
         </ul>
-        <ul class="navbar-nav d-lg-block d-none">
+        <!-- <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
             <a
               :href="action.route"
@@ -940,7 +941,7 @@ watch(
               >{{ action.label }}</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>

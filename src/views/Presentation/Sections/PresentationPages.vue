@@ -1,3 +1,4 @@
+<!-- 
 <script setup>
 import ExampleCard from "../Components/ExampleCard.vue";
 import MaterialBadge from "../../../components/MaterialBadge.vue";
@@ -77,4 +78,4 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
       </div>
     </div>
   </section>
-</template>
+</template> -->

@@ -62,11 +62,10 @@ onUnmounted(() => {
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              Platform Logics
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              끊임없는 도전과 혁신속에서 세상이 필요한 회사로 거듭날것입니다.
             </p>
           </div>
         </div>
