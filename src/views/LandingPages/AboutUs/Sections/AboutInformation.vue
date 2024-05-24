@@ -4,7 +4,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
 import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogCard.vue";
 </script>
 <template>
-  <section class="py-7">
+  <!-- <section class="py-7">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -50,5 +50,5 @@ import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogC
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>

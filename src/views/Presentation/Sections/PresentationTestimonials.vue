@@ -6,46 +6,39 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mx-auto text-center">
-          <h2 class="mb-0">Trusted by over</h2>
+          <h2 class="mb-0">솔루션 및 사용고객</h2>
           <h2 class="text-gradient text-success mb-3">
-            1,679,477+ web developers
+            100+ 고객
           </h2>
           <p class="lead">
-            Many Fortune 500 companies, startups, universities and governmental
-            institutions love Creative Tim's products.
+            100명 이상의 고객이 Platform Logics가 제공한 솔루션을 사용중입니다.
           </p>
         </div>
       </div>
       <div class="row mt-6">
         <DefaultReviewCard
-          name="Nick Willever"
-          date="1 day ago"
-          review='"This is an excellent product, the documentation is excellent and
-          helped me get things done more efficiently."'
+          name="배규태"
+          date="1일 전"
+          review='"훌륭한 제품입니다. 문서도 훌륭하고 작업을 보다 효율적으로 수행하는 데 도움이 되었습니다."'
           :rating="5.0"
         />
         <DefaultReviewCard
           class="ms-md-auto"
           color="bg-gradient-success"
-          name="Shailesh Kushwaha"
-          date="1 week ago"
-          review='"I found solution to all my design needs from Creative Tim. I
-                  use them as a freelancer in my hobby projects for fun! And its
-                  really affordable, very humble guys !!!"'
+          name="채혜성"
+          date="1주 전"
+          review='"저렴한 비용에도 불구하고, 원하는 요구사항을 최대한 반영해주려고 했는것을 감사하게 생각합니다."'
           :rating="5.0"
         />
 
         <DefaultReviewCard
-          name="Samuel Kamuli"
-          date="3 weeks ago"
-          review='"Great product. Helped me cut the time to set up a site. I
-                  used the components within instead of starting from scratch. I
-                  highly recommend for developers who want to spend more time on
-                  the backend!."'
+          name="조민정"
+          date="3주 전"
+          review='"훌룡한 제품입니다. 적극적 그리고 지속적인 협조에 감사드립니다."'
           :rating="5.0"
         />
       </div>
-      <hr class="horizontal dark my-5" />
+      <!-- <hr class="horizontal dark my-5" />
       <div class="row">
         <div class="col-lg-2 col-md-4 col-6 ms-auto">
           <img
@@ -82,7 +75,7 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
             alt="Logo"
           />
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

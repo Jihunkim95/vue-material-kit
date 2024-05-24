@@ -1,3 +1,4 @@
+
 <script setup>
 import { onMounted, onUnmounted } from "vue";
 
@@ -20,7 +21,7 @@ import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
-import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import vueTigerHeader from "@/assets/img/vue-tiger-header.jpg";
 import wavesWhite from "@/assets/img/waves-white.svg";
 import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
 import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
@@ -28,6 +29,10 @@ import logoVue from "@/assets/img/logos/vue.jpg";
 import logoAngular from "@/assets/img/logos/angular.jpg";
 import logoReact from "@/assets/img/logos/react.jpg";
 import logoSketch from "@/assets/img/logos/sketch.jpg";
+import logoApple from "@/assets/img/logos/small-logos/logo-apple.svg"
+import logoAws from "@/assets/img/logos/logo-aws.png"
+import logoPostgre from "@/assets/img/logos/logo-postgre.png"
+import logoMssql from "@/assets/img/logos/logo-mssql.png"
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -52,19 +57,19 @@ onUnmounted(() => {
   <Header>
     <div
       class="page-header min-vh-75"
-      :style="`background-image: url(${vueMkHeader})`"
+      :style="`background-image: url(${vueTigerHeader}); background-position: center calc(35%); background-size: cover;`"
       loading="lazy"
     >
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 text-center mx-auto position-relative">
+          <div class="col-lg-7 text-center mx-auto position-relativ;">
             <h1
-              class="text-white pt-3 mt-n5 me-2"
+              class="text-white pt-5 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
               Platform Logics
             </h1>
-            <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
+            <p class="lead text-white px-5 mt-1" :style="{ fontWeight: '500' }">
               끊임없는 도전과 혁신속에서 세상이 필요한 회사로 거듭날것입니다.
             </p>
           </div>
@@ -79,7 +84,7 @@ onUnmounted(() => {
     <PresentationExample :data="data" />
     <PresentationPages />
     <BuiltByDevelopers />
-
+<!-- 
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -126,7 +131,7 @@ onUnmounted(() => {
           />
         </div>
       </div>
-    </div>
+    </div> -->
     <PresentationTestimonials />
 
     <div
@@ -148,20 +153,17 @@ onUnmounted(() => {
             <div class="d-flex justify-content-center p-5">
               <div class="col-lg-8 ms-lg-5 text-center">
                 <h3 class="text-white">
-                  Do you love this awesome UI Kit from Vuejs & Bootstrap?
+                  Platform Logics에 관심이 있으신가요?
                 </h3>
                 <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
+                  감사합니다! Platform Logics는 아래 기업에 기술을 적극이용하여 고객님의 관심에 보답하고자 합니다.
                 </p>
-
+<!-- 
                 <a
                   href="https://www.creative-tim.com/product/vue-material-kit"
                   class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
                   >Download Now</a
-                >
+                > -->
               </div>
             </div>
           </div>
@@ -172,38 +174,25 @@ onUnmounted(() => {
     <div class="container">
       <div class="row">
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
-          <h3>Available on these technologies</h3>
+          <h3>자사가 적극 활용중인 기술 기업</h3>
           <div class="d-flex justify-content-center mt-3 flex-wrap">
             <a
-              href="https://www.creative-tim.com/product/material-kit"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Bootstrap 5 - Most popular front-end component library"
-            >
-              <img
-                :src="logoBootstrap"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5 ms-3"
+              class="opacity-9 ms-3 mt-2 mx-2"
               href="#"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
               title="Coming Soon"
             >
               <img
-                :src="logoTailwind"
+                :src="logoApple"
                 alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
+                loading="eager"
+                :style="{ height: '60px' }"
               />
             </a>
             <a
               href="https://www.creative-tim.com/product/vue-material-kit-pro"
-              class="mx-3"
+              class=""
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
               title="Vue.js - Is a Progressive JavaScript Framework"
@@ -216,7 +205,7 @@ onUnmounted(() => {
               />
             </a>
             <a
-              class="opacity-5"
+              class="opacity-8 mx-1"
               href="#"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
@@ -231,27 +220,55 @@ onUnmounted(() => {
             </a>
             <a
               href="https://www.creative-tim.com/product/material-kit-react-pro"
-              class="mx-3"
+              class="opacity-9 mx-3 mt-4"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
               title="React – A JavaScript library for building user interfaces"
             >
               <img
-                :src="logoReact"
+                :src="logoAws"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
+                :style="{ height: '40px' }"
               />
             </a>
             <a
-              class="opacity-5"
+              class="opacity-9 mx-3 mt-2"
               href="#"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
               title="Coming Soon"
             >
               <img
-                :src="logoSketch"
+                :src="logoPostgre"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '80px' }"
+              />
+            </a>
+            <a
+              href="https://www.creative-tim.com/product/material-kit-react-pro"
+              class="opacity-9 mx-3 mt-3"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="React – A JavaScript library for building user interfaces"
+            >
+              <img
+                :src="logoMssql"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '70px' }"
+              />
+            </a>
+            <a
+              href="https://www.creative-tim.com/product/material-kit"
+              class="opacity-8 "
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Bootstrap 5 - Most popular front-end component library"
+            >
+              <img
+                :src="logoBootstrap"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
@@ -261,25 +278,25 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <div class="py-5">
+    <div class="py-2">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ms-auto">
-            <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
+            <h4 class="mb-1">관심에 감사드립니다.</h4>
+            <p class="lead mb-0">보다 자세한 내용은 링크를 통해 확인 가능합니다.</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
             <MaterialSocialButton
-              route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
-              component="twitter"
-              color="twitter"
-              label="Tweet"
+              route="https://github.com/Jihunkim95"
+              component="github"
+              color="github"
+              label="Github"
             />
             <MaterialSocialButton
-              route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
-              component="facebook-square"
-              color="facebook"
-              label="Share"
+              route="https://velog.io/@darak551/posts"
+              component=""
+              color="primary"
+              label="Velog"
             />
             <MaterialSocialButton
               route=""

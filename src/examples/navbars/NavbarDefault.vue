@@ -121,7 +121,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-       플랫폼로직스
+       플랫폼로직
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -176,7 +176,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              페이지
+              Page
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -207,7 +207,7 @@ watch(
                       >
                         <span>About Us</span>
                       </RouterLink>
-                      <RouterLink
+                      <!-- <RouterLink
                         :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
                       >
@@ -229,7 +229,7 @@ watch(
                         class="dropdown-item border-radius-md"
                       >
                         <span>Sign In</span>
-                      </RouterLink>
+                      </RouterLink> -->
                     </div>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ watch(
               </div>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -286,7 +286,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              섹션
+              Section
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -754,7 +754,7 @@ watch(
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
@@ -769,7 +769,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              문서
+              Doc
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -790,7 +790,7 @@ watch(
                   <li class="nav-item list-group-item border-0 p-0">
                     <a
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
+                      href=""
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -798,8 +798,7 @@ watch(
                         Getting Started
                       </h6>
                       <span class="text-sm"
-                        >All about overview, quick start, license and
-                        contents</span
+                        >개요, 빠른시작, 저작권등..</span
                       >
                     </a>
                   </li>
@@ -814,11 +813,12 @@ watch(
                         Foundation
                       </h6>
                       <span class="text-sm"
-                        >See our colors, icons and typography</span
+                        >색상, 아이콘, 타이포그래피 더보기</span
                       >
                     </a>
                   </li>
-                  <li class="nav-item list-group-item border-0 p-0">
+
+                  <!-- <li class="nav-item list-group-item border-0 p-0">
                     <a
                       class="dropdown-item py-2 ps-3 border-radius-md"
                       href=" https://www.creative-tim.com/learning-lab/vue/alerts/material-kit/"
@@ -834,6 +834,7 @@ watch(
                       >
                     </a>
                   </li>
+                   -->
                 </ul>
               </div>
               <div class="row d-lg-none">
@@ -911,7 +912,7 @@ watch(
           </li>
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
-              href="https://www.github.com/creativetimofficial/vue-material-kit"
+              href="https://github.com/Jihunkim95"
               class="nav-link d-flex cursor-pointer align-items-center"
             >
               <svg

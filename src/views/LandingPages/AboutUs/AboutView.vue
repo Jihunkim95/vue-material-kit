@@ -64,17 +64,16 @@ onUnmounted(() => {
             </h1>
             <div id="typed-strings">
               <h1>team</h1>
-              <h1>design</h1>
+              <h1>product</h1>
               <h1>tool</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We’re constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              끊임없이 표현하고 실현하려고 노력하고 있습니다. 항상 기회를 기다립니다.
             </p>
-            <button type="submit" class="btn bg-white text-dark">
+            <!-- <button type="submit" class="btn bg-white text-dark">
               Create Account
-            </button>
-            <h6 class="text-white mb-2 mt-5">Find us on</h6>
+            </button> -->
+            <!-- <h6 class="text-white mb-2 mt-5">Find us on</h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"
                 ><i class="fab fa-facebook text-lg text-white me-4"></i
@@ -88,7 +87,7 @@ onUnmounted(() => {
               <a href="javascript:;"
                 ><i class="fab fa-google-plus text-lg text-white"></i
               ></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
