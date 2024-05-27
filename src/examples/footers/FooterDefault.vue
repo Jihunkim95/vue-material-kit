@@ -53,7 +53,7 @@ defineProps({
         items: [
           {
             name: "about us",
-            href: "https://www.creative-tim.com/presentation"
+            href: "https://www.platformlogics.com/pages/landing-pages/about-us"
           },
           // {
           //   name: "freebies",
