@@ -123,6 +123,7 @@ watch(
       >
        플랫폼로직
       </RouterLink>
+      <!--모바일에서 나타나는부분-->
       <RouterLink
         class="navbar-brand d-block d-md-none"
         :class="
@@ -135,13 +136,13 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Design
+        플랫폼로직
       </RouterLink>
-      <a
+      <!-- <a
         href="https://www.creative-tim.com/product/vue-material-kit-pro"
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
         >Buy Now</a
-      >
+      > -->
       <button
         class="navbar-toggler shadow-none ms-2"
         type="button"
@@ -246,7 +247,7 @@ watch(
                 >
                   <span>About Us</span>
                 </RouterLink>
-                <RouterLink
+                <!-- <RouterLink
                   :to="{ name: 'contactus' }"
                   class="dropdown-item border-radius-md"
                 >
@@ -268,7 +269,7 @@ watch(
                   class="dropdown-item border-radius-md"
                 >
                   <span>Sign In</span>
-                </RouterLink>
+                </RouterLink> -->
               </div>
             </div>
           </li>
@@ -837,11 +838,12 @@ watch(
                    -->
                 </ul>
               </div>
+              <!--모바일 -->
               <div class="row d-lg-none">
                 <div class="col-md-12 g-0">
                   <a
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    href="./pages/about-us.html"
+                    href=""
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -849,8 +851,7 @@ watch(
                       Getting Started
                     </h6>
                     <span class="text-sm"
-                      >All about overview, quick start, license and
-                      contents</span
+                      >개요, 빠른시작, 저작권등..</span
                     >
                   </a>
                   <a
@@ -863,10 +864,10 @@ watch(
                       Foundation
                     </h6>
                     <span class="text-sm"
-                      >See our colors, icons and typography</span
+                      >색상, 아이콘, 타이포그래피 더보기</span
                     >
                   </a>
-                  <a
+                  <!-- <a
                     class="dropdown-item py-2 ps-3 border-radius-md"
                     href="./pages/about-us.html"
                   >
@@ -905,7 +906,7 @@ watch(
                       >For those who want flexibility, use our utility
                       classes</span
                     >
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
