@@ -23,7 +23,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description="ERP, 웹, 모바일 소프트웨어 개발 내역이 그 사실을 증명합니다."
               :action="[
                 {
-                  route: './/sections/page-sections/hero-sections.html',
+                  route: 'https://www.notion.so/Jihoon-Kim-cbc826fca1594c0893bad3ea3ce1c6cb?pvs=4',
                   label: '내역 확인',
                 },
               ]"
